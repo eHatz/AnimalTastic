@@ -3,3 +3,60 @@
 	padding: 20px;
 	text-align: center;
 }
+.animalButtons {
+	margin: 10px 10px 0px 0px;
+}
+#addAnimal-btn {
+	margin-left: 10px;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Seymour One', sans-serif;
+	padding: 20px;
+	margin: 0px;
+}
+h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+p {
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+/*.form-inline{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}*/
+#searchDiv {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+#resultDiv {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.animalDiv{
+	float: none;
+	display: inline-block;
+	text-align: center;
+	background-color: #181f4b;
+	padding: 0px;
+	margin: 20px;
+}
+body{ 
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#header {
+	background-image: url(../images/fence.jpg);
+	background-size: 200px 100%;
+}
