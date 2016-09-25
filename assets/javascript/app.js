@@ -36,7 +36,7 @@ $(document).on('click', '.animalButtons', function () {
 	//sets value of animal variable to the text inside the data-animal attribute
 	var animal = $(this).attr('data-animal');
 	console.log(animal);
-	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10&rating";
+	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10&rating";
 
 	$.ajax({url: queryURL, method: 'GET'}).done(function(giphy) {
 
